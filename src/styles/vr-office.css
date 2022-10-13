@@ -1,0 +1,116 @@
+
+.pkgContainer{
+    width: 100%;
+    height:auto;
+    padding: 20px;
+    /* background: linear-gradient(#09020c, #36265A ); */
+  background: linear-gradient(#160022, #36265a);
+
+}
+
+
+.pkg-card {
+    
+    background: linear-gradient(
+        109.4deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 0.05) 101.64%
+      );
+      backdrop-filter: blur(20px);
+      border: 0px solid rgba(255, 255, 255, 0.267);
+      box-shadow: 8px 10px 16px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      margin: 10px;
+
+      -o-border-radius: 10px;
+      transition: .5s;
+
+    padding: 10px;
+    width: 408px;
+    height: auto;
+    text-align: center;
+
+
+}
+
+.pkg-img img{
+    width: 100%;
+}
+
+.pkh-hrading>h1 {
+    margin-top: 5px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.pkh-hrading>h4,.pkg-details h4  {
+    margin: 12px;
+    color: #EB11F4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+    font-size: 22px;
+
+}
+.pkg-details a{
+    color: #EB11F4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    
+
+}
+.rent-heading {
+    margin-top: 2px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+    opacity: 0.9;
+}
+
+.pkg-details>p  ,.hiddenContent p{
+    margin-top: 0px;
+    color: rgb(167, 160, 160);
+    opacity: 0.7;
+    font-family: 'Montserrat', sans-serif;
+    /* text-align: start !important; */
+}
+.pkg-details{
+    padding: 0px 10px;
+    
+}
+.getIt{
+    background: none;
+    outline: none;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 10px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    background: #EB11F4;
+    transition: .5s;
+    color: azure;
+}
+.cardrow{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    overflow: hidden;
+}
+
+.ourpkg{
+    margin-top: 2px;
+    text-align: center;
+    color: #EB11F4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}

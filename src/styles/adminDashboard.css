@@ -1,0 +1,82 @@
+.adiminTopbar{
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+
+}
+.dasboardContent{
+    height: 100vh;
+    background: linear-gradient(#160022, #36265a);
+
+}
+
+
+.dashboard-heading{
+    padding-left: 130px;
+}
+.tableContainer{
+    display: flex;
+    justify-content: center;
+
+}
+.table-responsive{
+    width: 80%;
+    background: linear-gradient(
+        109.4deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 0.05) 101.64%
+      ) !important;
+      backdrop-filter: blur(20px);
+      border: 0px solid rgba(255, 255, 255, 0.267);
+      box-shadow: 8px 10px 16px rgba(0, 0, 0, 0.05);
+      padding: 10px;
+      border-radius: 5px;
+}
+
+thead{
+    border-bottom: 1px solid gray;
+}
+thead tr th{
+    border: none !important;
+}
+.table th{
+    color: #fff !important;
+
+}
+td{
+    color: #a7a0a0;
+    opacity: 0.7;
+}
+caption{
+    padding: 0px !important;
+}
+.loaderConatiner{
+    background: linear-gradient(
+        109.4deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 0.05) 101.64%
+      ) !important;
+      backdrop-filter: blur(20px);
+      border: 0px solid rgba(255, 255, 255, 0.267);
+      box-shadow: 8px 10px 16px rgba(0, 0, 0, 0.05);
+      padding: 30px;
+      border-radius: 9px;
+      width: 80%;
+}
+
+.emptybox{
+    background: linear-gradient(
+        109.4deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 0.05) 101.64%
+      ) !important;
+      backdrop-filter: blur(20px);
+      border: 0px solid rgba(255, 255, 255, 0.267);
+      box-shadow: 8px 10px 16px rgba(0, 0, 0, 0.05);
+      padding: 30px;
+      width: 80%;
+      border-radius: 10px;
+
+}

@@ -1,0 +1,105 @@
+
+.login-container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /* background: linear-gradient(#09020c, #36265A ); */
+  background: linear-gradient(#160022, #36265a);
+
+    
+}
+.login-heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.login-heading > h1{
+    margin-top: 2px;
+    text-align: center;
+    color: #EB11F4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+.login-body-container{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.login-body{
+    border: 1px solid red;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(
+        109.4deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 0.05) 101.64%
+      );
+      backdrop-filter: blur(20px);
+      border: 0px solid rgba(255, 255, 255, 0.267);
+      box-shadow: 8px 10px 16px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+}
+.login-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.login-form > input{
+    border: none;
+    border: 1px solid rgb(128, 126, 126);
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: none;
+    outline: none;
+    width: 100%;
+    padding: 15px 10px;
+    /* border-radius: 9px; */
+    color: rgb(159, 160, 161);
+    font-size: 19px;
+    font-family: sans-serif;
+
+}
+.login-form > input::placeholder{
+    font-size: 15px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+.loginBtn{
+    background: none;
+    outline: none;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background: #EB11F4;
+    transition: .5s;
+    color: azure;
+}
+
+.loginBtn:hover{
+    background: #a812ad;
+    /* font-weight: bold; */
+} 
+
+
+@media only screen and (max-width: 700px){
+    /*Tablets [601px -> 1200px]*/
+    .login-body{
+        width: 90%;
+    }
+}
