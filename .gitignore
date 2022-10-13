@@ -18,6 +18,7 @@ Soland Epic Staking.mp4
 Soland City Infrastructure.mp4
 
 # misc
+.env
 .DS_Store
 .env.local
 .env.development.local
